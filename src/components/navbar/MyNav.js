@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              S JENESHA MALAR
             </h5>
           </div>
         </Navbar.Brand>
@@ -101,17 +101,17 @@ export default function MyNav() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
+                // as={Link}
                 to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
-                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FaBlog style={{ marginBottom: "2px" }} />
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://github.com/Jenesha20/Personal_Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

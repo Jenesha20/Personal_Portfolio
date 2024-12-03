@@ -9,6 +9,7 @@ import nactar from "../../images/nactar.jpg";
 import ccna from "../../images/CCNA_Certificate.jpg";
 import cbta from "../../images/CBT&A.pdf";
 import skill from "../../images/skill.png";
+import nptel from "../../images/nptel.png";
 import c from "../../images/c.jpg";
 import iq from "../../images/IQ_Test.jpg";
 import computer from "../../images/Computer_knowledge.jpg";
@@ -40,11 +41,11 @@ export default function CertificatePage() {
                           <Fade bottom duration={2000} distance="20px">
                             <div className="cert-card">
                               <div className="content">
-                                <a
+                                {/* <a
                                   href="https://www.hackerrank.com/certificates/3573ea1a35bb"
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                >
+                                > */}
                                   <div className="content-overlay"></div>
                                   <div
                                     className="cert-header"
@@ -53,8 +54,8 @@ export default function CertificatePage() {
                                     {
                                       <img
                                         className="logo_img"
-                                        src={ucsc}
-                                        alt={ucsc}
+                                        src={nptel}
+                                        alt={nptel}
                                       />
                                     }
                                   </div>
@@ -66,15 +67,14 @@ export default function CertificatePage() {
                                       Certificate
                                     </h3>
                                   </div>
-                                </a>
+                                {/* </a> */}
                               </div>
                               <div className="cert-body">
                                 <h2
                                   className="cert-body-title"
                                   style={{ fontWeight: 700, color: "#fbd9ad" }}
                                 >
-                                  Problem Solving Basic : Programming
-                                  Fundamentals
+                                  Machine Learning for Soil and Crop Managemnet
                                 </h2>
                                 <h3
                                   className="cert-body-subtitle"
@@ -83,7 +83,7 @@ export default function CertificatePage() {
                                     marginBottom: "0px",
                                   }}
                                 >
-                                  - HackerRank
+                                  - Nptel
                                 </h3>
                               </div>
                             </div>

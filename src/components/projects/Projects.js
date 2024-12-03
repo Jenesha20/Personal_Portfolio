@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import pcd from "../../images/pcd.webp";
+import dsp from "../../images/dsp.webp";
+import hs from "../../images/hs.avif";
+import eca from "../../images/eca.jpg";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      Personalized Career Developement
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={pcd} alt={pcd} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/Malavikaa02/Personalized_Career_Development"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +66,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                     The AI-Powered Career Development Platform revolutionizes career growth with tailored roadmaps,
+                      skill recommendations, project insights, and ATS-friendly resumes, bridging aspirations and achievements.
                     </p>
                   </h6>
                   <div
@@ -82,7 +78,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    LLaMA-3-8b-8192
                   </div>
                 </div>
               </Fade>
@@ -99,13 +95,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Housing Services
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={hs} alt={hs} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/Jenesha20/Intel_Housing_Services"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -129,11 +125,10 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      Developed a housing services website using the MERN stack 
+                      that offers services like painting, carpentry, and electrical work based on user location. 
+                       The platform includes both user and worker registration, allowing users to easily find
+                       service providers while workers can manage their profiles and availability.
                     </p>
                   </h6>
                   <div
@@ -144,7 +139,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    MERN
                   </div>
                 </div>
               </Fade>
@@ -161,13 +156,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Disease Sysmptom Prediction
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={dsp} alt={dsp} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/Jenesha20/Disease_Symptom_Prediction"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -191,11 +186,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                    Use of AI and Machine Learning: Artificial intelligence and machine learning are 
+                    already being used in healthcare to help predict disease. 
+                    In the future, these technologies could become more advanced, enabling more accurate predictions of heart disease risk.
                     </p>
                   </h6>
                   <div
@@ -206,7 +199,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    ML Algorithms
                   </div>
                 </div>
               </Fade>
@@ -223,13 +216,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      Ecommerce Data Analysis
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={eca} alt={eca} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/Jenesha20/Ecommerce_Data_Analysis"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -253,9 +246,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      Conducted Ecommerce data analysis with Power BI, 
+                      creating dashboards and reports to visualize sales trends, customer behavior, and 
+                      inventory, driving data-driven strategies for business growth.
                     </p>
                   </h6>
                   <div
@@ -266,7 +259,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    PowerBI
                   </div>
                 </div>
               </Fade>
