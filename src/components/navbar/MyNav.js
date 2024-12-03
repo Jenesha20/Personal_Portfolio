@@ -3,6 +3,7 @@ import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import profile from "../../images/profile.webp";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -33,21 +34,32 @@ export default function MyNav() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
-          <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.png" className="img-fluid logo" alt="brand" />
-            <h5
-              id="navhead"
-              style={{
-                marginLeft: "21px",
-                paddingTop: "6px",
-                color: "#fbd9ad",
-              }}
-            >
-              S JENESHA MALAR
-            </h5>
-          </div>
-        </Navbar.Brand>
+      <Navbar.Brand href="/">
+  <div className="d-flex flex-row justify-content-between">
+    <img
+      src={profile}
+      className="img-fluid logo"
+      alt="brand"
+      style={{
+        borderRadius: '50%', // Make the image round
+        width: '40px',       // Adjust the width as needed
+        height: '40px',      // Set height equal to width for a perfect circle
+        objectFit: 'cover',  // Ensures the image fits within the circle
+      }}
+    />
+    <h5
+      id="navhead"
+      style={{
+        marginLeft: "21px",
+        paddingTop: "6px",
+        color: "#fbd9ad",
+      }}
+    >
+      S JENESHA MALAR
+    </h5>
+  </div>
+</Navbar.Brand>
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {

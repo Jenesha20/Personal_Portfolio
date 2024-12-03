@@ -5,6 +5,7 @@ import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
+import profile from "../../images/profile.webp";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
@@ -75,18 +76,25 @@ export default function Home() {
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
-              <div className="img-home-main">
-                <Tilt>
-                  <Fade cascade>
-                    <img
-                      src="./profile.png"
-                      alt="home pic"
-                      className="img-fluid"
-                    />
-                  </Fade>
-                </Tilt>
-              </div>
-            </Col>
+  <div className="img-home-main">
+    <Tilt>
+      <Fade cascade>
+        <img
+          src={profile}
+          alt="home pic"
+          className="img-fluid"
+          style={{
+            borderRadius: '50%',
+            width: '350px', // Adjust the width as needed
+            height: '380px', // Maintain aspect ratio
+            objectFit: 'cover' // Ensures the image fills the circle without distortion
+          }}
+        />
+      </Fade>
+    </Tilt>
+  </div>
+</Col>
+
           </Row>
         </Container>
       </Container>
