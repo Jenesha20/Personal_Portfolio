@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
+import infosys from "../../images/infosys.png";
+import deep from "../../images/deeplearningcertificate.pdf";
+import dbms from "../../images/dbms.pdf";
+import ml from "../../images/ml.pdf";
+import nptel from "../../images/nptel.png";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -29,16 +31,16 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
-                          target="_blank"
-                          rel="noopener noreferrer"
+                           href={ml}
+                           target="_blank"
+                           rel="noopener noreferrer"
                         >
                           <div className="content-overlay"></div>
                           <div
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={nptel} alt={nptel} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -55,13 +57,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          Machine Learning for Soil and Crop Managemnet
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Nptel
                         </h3>
                       </div>
                     </div>
@@ -72,7 +74,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
+                          href={deep}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -81,7 +83,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
+                            {<img className="logo_img" src={infosys} alt={infosys} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -98,14 +100,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
+                          Introduction to Deep Learning
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - Bangladesh Technical Education Board
+                          - Infosys SpringBoard
                         </h3>
                       </div>
                     </div>
@@ -116,7 +117,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                          href={dbms}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -125,7 +126,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={infosys} alt={infosys} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -142,13 +143,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Python Basic for : Programming Fundamentals
+                           Database Management System Part -I
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Infosys SpringBoard
                         </h3>
                       </div>
                     </div>

@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import pcd from "../../images/pcd.webp";
-import dsp from "../../images/dsp.webp";
+import pcd from "../../images/pcd.avif";
+import dsp from "../../images/dis.webp";
 import hs from "../../images/hs.avif";
 import eca from "../../images/eca.jpg";
 import { FaCode } from "react-icons/fa";
@@ -188,7 +188,7 @@ export default function Projects() {
                     >
                     Use of AI and Machine Learning: Artificial intelligence and machine learning are 
                     already being used in healthcare to help predict disease. 
-                    In the future, these technologies could become more advanced, enabling more accurate predictions of heart disease risk.
+                    In the future, these technologies could become more advanced, enabling more accurate predictions of disease risk.
                     </p>
                   </h6>
                   <div

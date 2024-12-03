@@ -14,6 +14,17 @@ import age from "../../images/age.png";
 import calculator from "../../images/calculator.png";
 import calendar from "../../images/calendar.png";
 import dc from "../../images/dc.png";
+import dis from "../../images/dis.webp";
+import port from "../../images/port.jpg";
+import pcd from "../../images/pcd.avif";
+import dsp from "../../images/dsp.webp";
+import dogs from "../../images/dogs.webp";
+import ex from "../../images/expense.avif";
+import hs from "../../images/hs.avif";
+import pat from "../../images/pat.avif";
+import sup from "../../images/sup.avif";
+import hr from "../../images/hr.avif";
+import eca from "../../images/eca.jpg";
 import sims from "../../images/sims.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
@@ -50,13 +61,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  New Year CountDown
+                                Personalized Career Developement
                                 </h5>
-                                <img src={nyc} alt={nyc} />
+                                <img src={pcd} alt={pcd} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                                      "https://github.com/Malavikaa02/Personalized_Career_Development"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -80,13 +91,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The New Year Countdown Project is more than
-                                  just a celebration; it's a testament to the
-                                  human spirit and our shared aspirations for a
-                                  brighter future. So, mark your calendars and
-                                  get ready to be part of this global
-                                  extravaganza as we count down to a new year
-                                  filled with endless possibilities.
+                                  The AI-Powered Career Development Platform revolutionizes career growth with tailored roadmaps,
+                      skill recommendations, project insights, and ATS-friendly resumes, bridging aspirations and achievements.
                                 </p>
                               </h6>
                               <div
@@ -97,7 +103,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript
+                                LLaMA-3-8b-8192
                               </div>
                             </div>
                           </Fade>
@@ -114,13 +120,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Heart Disease Prediction
+                                Housing Services
                                 </h5>
-                                <img src={hd} alt={hd} />
+                                <img src={hs} alt={hs} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                                      "https://github.com/Jenesha20/Intel_Housing_Services"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -144,12 +150,10 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Use of AI and Machine Learning: Artificial
-                                  intelligence and machine learning are already
-                                  being used in healthcare to help predict heart
-                                  disease. In the future, these technologies
-                                  could become more advanced, enabling more
-                                  accurate predictions of heart disease risk.
+                                  Developed a housing services website using the MERN stack 
+                      that offers services like painting, carpentry, and electrical work based on user location. 
+                       The platform includes both user and worker registration, allowing users to easily find
+                       service providers while workers can manage their profiles and availability.
                                 </p>
                               </h6>
                               <div
@@ -160,7 +164,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                Pandas, Matplotlib, Scikit-Learn
+                                MERN
                               </div>
                             </div>
                           </Fade>
@@ -177,13 +181,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Online Payroll Management System
+                                Disease Sysmptom Prediction
                                 </h5>
-                                <img src={ci} alt={ci} />
+                                <img src={dis} alt={dis} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                                      "https://github.com/Jenesha20/Disease_Symptom_Prediction"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -207,12 +211,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  A Payroll management System with feature like
-                                  generate payslip & reports. It manages
-                                  salaries, leaves, branches, employees,
-                                  designations, shifts, holidays and employee
-                                  attendance. It has chat application so
-                                  internal employees can use that feature.
+                                  Use of AI and Machine Learning: Artificial intelligence and machine learning are 
+                                  already being used in healthcare to help predict disease. 
+                                  In the future, these technologies could become more advanced, enabling more accurate predictions of disease risk.
                                 </p>
                               </h6>
                               <div
@@ -223,7 +224,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, PHP, SCSS
+                                ML Algorithms
                               </div>
                             </div>
                           </Fade>
@@ -240,13 +241,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Shoppy Ecommerce
+                                Ecommerce Data Analysis
                                 </h5>
-                                <img src={eco} alt={eco} />
+                                <img src={eca} alt={eca} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Shoppy_Ecommerce"
+                                      "https://github.com/Jenesha20/Ecommerce_Data_Analysis"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -270,12 +271,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Seamless online shopping with a vast catalog,
-                                  secure transactions, and personalized
-                                  recommendations. 24/7 customer support,
-                                  flexible payments, and fast shipping. Explore
-                                  our website and redefine your shopping
-                                  experience.
+                                  Conducted Ecommerce data analysis with Power BI, 
+                                  creating dashboards and reports to visualize sales trends, customer behavior, and 
+                                  inventory, driving data-driven strategies for business growth.
                                 </p>
                               </h6>
                               <div
@@ -286,7 +284,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, React, JavaScript
+                                PowerBI
                               </div>
                             </div>
                           </Fade>
@@ -305,11 +303,11 @@ export default function ProjectPage() {
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                                   Personal Portfolio
                                 </h5>
-                                <img src={pp} alt={pp} />
+                                <img src={port} alt={port} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                                      "https://github.com/Jenesha20/Personal_Portfolio"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -364,9 +362,9 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Amazing Meal
+                                  Dogs Breed Identification
                                 </h5>
-                                <img src={meal} alt={meal} />
+                                <img src={dogs} alt={dogs} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
@@ -394,12 +392,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Indulge in a mouthwatering meal that combines
-                                  flavors and textures to create a culinary
-                                  masterpiece. Our carefully crafted dishes are
-                                  made with the freshest ingredients, expertly
-                                  prepared to satisfy your taste buds and leave
-                                  you craving for more.
+                                  AI and Deep Learning in Dog Breed Identification: AI and deep learning are 
+                                  used to accurately identify dog breeds by analyzing features like size, shape, and coat type.
+                                   With further advancements, these technologies will enable even more precise and reliable breed identification.
                                 </p>
                               </h6>
                               <div
@@ -410,7 +405,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, React
+                                Deep Learning 
                               </div>
                             </div>
                           </Fade>
@@ -427,13 +422,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Academia Learning Website
+                                  Expense Tracker
                                 </h5>
-                                <img src={ac} alt={ac} />
+                                <img src={ex} alt={ex} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Academia"
+                                      "https://github.com/Jenesha20/Expense_Tracker"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -457,12 +452,9 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Unlock your potential with our dynamic
-                                  learning website. Access a wide range of
-                                  courses, interactive lessons, and expert
-                                  instructors to enhance your knowledge and
-                                  skills. Start your learning journey today and
-                                  expand your horizons.
+                                  Developed an expense tracker application using the MERN stack that allows users to track and manage their expenses efficiently. 
+                                  The platform enables users to categorize expenses, set budgets, and view detailed reports,
+                                  helping them maintain financial control and make informed decisions.
                                 </p>
                               </h6>
                               <div
@@ -473,7 +465,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript, React
+                                MERN
                               </div>
                             </div>
                           </Fade>
@@ -490,13 +482,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Dual Mode Calendar
+                                  Patient Data Analysis
                                 </h5>
-                                <img src={calendar} alt={calendar} />
+                                <img src={pat} alt={pat} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/Dual-Mode-Calendar"
+                                      "https://github.com/Jenesha20/Patient_Data_Analysis"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -520,9 +512,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The Dual Mode Calendar project is a versatile web application built with HTML, CSS, and JavaScript. It seamlessly 
-                                  toggles between a traditional monthly calendar view and a sleek event scheduler. Users can effortlessly manage 
-                                  appointments and events in a visually appealing and user-friendly interface.
+                                  Conducted patient data analysis using Power BI, creating interactive dashboards and reports to visualize patient demographics, 
+                                  treatment outcomes, and hospital performance, enabling data-driven decisions to improve healthcare services and patient care.
                                 </p>
                               </h6>
                               <div
@@ -533,7 +524,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript
+                                PowerBI
                               </div>
                             </div>
                           </Fade>
@@ -550,13 +541,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Dual Mode Calculator
+                                  Supply Chain Management for Cars
                                 </h5>
-                                <img src={calculator} alt={calculator} />
+                                <img src={sup} alt={sup} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/Dual-Mode-Calculator"
+                                      "https://github.com/Jenesha20/Supply_chain_management-_for_cars"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -580,9 +571,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  The Dual Mode Calculator project is a web application created with HTML, CSS, and JavaScript. It offers two modes: 
-                                  basic and scientific, providing essential arithmetic functions and advanced calculations. The user-friendly interface 
-                                  and responsive design ensure seamless use across various devices.
+                                  Analyzed and visualized car supply chain data using Power BI, creating dashboards to track inventory, supplier performance, and production timelines, 
+                                  enabling data-driven decisions to optimize efficiency, reduce costs, and improve overall supply chain performance.
                                 </p>
                               </h6>
                               <div
@@ -593,7 +583,7 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript
+                                PowerBI
                               </div>
                             </div>
                           </Fade>
@@ -610,13 +600,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Digital Clock
+                                  HR Data Analysis
                                 </h5>
-                                <img src={dc} alt={dc} />
+                                <img src={hr} alt={hr} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/Digital-Clock"
+                                      "https://github.com/Jenesha20/HR_Data_Analysis"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -640,8 +630,8 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Create a sleek, responsive digital clock with HTML, CSS, and JavaScript. Display real-time hours, minutes, and seconds, 
-                                  and update automatically. Customize its style and layout using CSS for a modern, functional timekeeping experience.
+                                  Analyzed HR data using Power BI, developing dashboards to visualize key metrics such as 
+                                  employee performance, retention rates, and workforce diversity, providing insights to optimize talent management and drive organizational growth.
                                 </p>
                               </h6>
                               <div
@@ -652,132 +642,12 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                HTML, CSS, JavaScript
+                                PowerBI
                               </div>
                             </div>
                           </Fade>
                         </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Age Calculator
-                                </h5>
-                                <img src={age} alt={age} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/Age-Calculator"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  Create an Age Calculator project using HTML, CSS, and JavaScript. Input your birthdate, and the tool 
-                                  instantly calculates your current age. The sleek design and user-friendly interface make age 
-                                  determination quick and hassle-free. Perfect for websites, apps, or personal use.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                HTML, CSS, JavaScript
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
-                          <Fade bottom>
-                            <div
-                              key={1}
-                              className="singleProject"
-                              style={{
-                                backgroundColor: "rgb(142 70 186 / 31%)",
-                                border: "1px solid",
-                              }}
-                            >
-                              <div className="projectContent">
-                                <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Student Information Management System
-                                </h5>
-                                <img src={sims} alt={sims} />
-                                <div className="project--showcaseBtn">
-                                  <a
-                                    href={
-                                      "https://github.com/MD-MAFUJUL-HASAN/Student-Information-Management-System"
-                                    }
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className={"iconBtn"}
-                                    aria-labelledby={`code`}
-                                  >
-                                    <FaCode
-                                      id={`code`}
-                                      className={"icon"}
-                                      aria-label="Code"
-                                    />
-                                  </a>
-                                </div>
-                              </div>
-                              <h6>
-                                <p
-                                  className="project--desc"
-                                  style={{
-                                    background: "#fbd9ad",
-                                    color: "#b061df",
-                                    fontWeight: 600,
-                                  }}
-                                >
-                                  The Student Information Management System project in C++ is a robust software solution designed to 
-                                  efficiently organize and manage student data. It enables users to store, update, and retrieve student 
-                                  information, including grades, attendance, and personal details, ensuring streamlined academic 
-                                  administration.
-                                </p>
-                              </h6>
-                              <div
-                                className="project--lang"
-                                style={{
-                                  background: "#fbd9ad",
-                                  color: "#b061df",
-                                  fontWeight: 600,
-                                }}
-                              >
-                                C++
-                              </div>
-                            </div>
-                          </Fade>
-                        </Col>
+            
                       </Row>
                     </Col>
                   </Row>
